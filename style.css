@@ -1,0 +1,11 @@
+.img-responsive{
+    height: 350px;
+    width: 300px;
+}
+#heading{
+    text-align: center;
+}
+body{
+    background-color:blue;
+    color:lawngreen;
+}

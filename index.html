@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <h1 id= "heading"> Case Study of Microsoft Azure and Mobilenet</h1>
+        <ol>
+            <div class= "text_images_and_result">
+                <li>
+                    <b>Test Image - </b><img src= "Book.png" class= "img-responsive">
+                </li>
+                <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                    <span>Long play record</span>
+                </h5>
+                <h5>Output on <b>Mobilenet Model: </b>
+                    <span> Moving Van</span>
+                </h5>
+                <div class= "bob3">
+                    <h4>Result - </h4>
+                    <hr>
+                    <h4>They Both got it wrong, but the Wolfram Language Recognizer I think was closer than the Mobilenet Model. </h4>
+                </div>
+              
+            </div>
+    
+            <hr>
+            
+                <div class= "text_images_and_result">
+                    <li>
+                        <b>Test Image - </b><img src= "Comb.png" class= "img-responsive">
+                    </li>
+                    <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                        <span>Hair Brush</span>
+                    </h5>
+                    <h5>Output on <b>Mobilenet Model: </b>
+                        <span> Raquet</span>
+                    </h5>
+                    <div class= "bob3">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4>The Wolfram Language Recognizer was more accurate. </h4>
+                    </div>
+                  
+                </div>
+        
+                <hr>
+            
+                <div class= "text_images_and_result">
+                    <li>
+                        <b>Test Image - </b><img src= "Vaseline.png" class= "img-responsive">
+                    </li>
+                    <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                        <span>Pedometer</span>
+                    </h5>
+                    <h5>Output on <b>Mobilenet Model: </b>
+                        <span> Stopwatch</span>
+                    </h5>
+                    <div class= "bob3">
+                        <h4>Result - </h4>
+                        <hr>
+                        <h4> They were both equally innaccurate.</h4>
+                    </div>
+                  
+                </div>
+        
+                <hr>
+                
+                    <div class= "text_images_and_result">
+                        <li>
+                            <b>Test Image - </b><img src= "Chapstick.png" class= "img-responsive">
+                        </li>
+                        <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                            <span>Plaster Bandage</span>
+                        </h5>
+                        <h5>Output on <b>Mobilenet Model: </b>
+                            <span> Pen</span>
+                        </h5>
+                        <div class= "bob3">
+                            <h4>Result - </h4>
+                            <hr>
+                            <h4> Even though both models got it wrong, I think the Mobilenet Model was more accurate because the chapstick sort of looks like a pen.</h4>
+                        </div>
+                      
+                    </div>
+            
+                    <hr>
+                    
+                        <div class= "text_images_and_result">
+                            <li>
+                                <b>Test Image - </b><img src= "Flowervase.png" class= "img-responsive">
+                            </li>
+                            <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                                <span>Sconce</span>
+                            </h5>
+                            <h5>Output on <b>Mobilenet Model: </b>
+                                <span> Vase</span>
+                            </h5>
+                            <div class= "bob3">
+                                <h4>Result - </h4>
+                                <hr>
+                                <h4> In this one, the Mobilenet Model was more accurate.</h4>
+                            </div>
+                          
+                        </div>
+                
+                        <hr>
+                        
+                            <div class= "text_images_and_result">
+                                <li>
+                                    <b>Test Image - </b><img src= "iPad.png" class= "img-responsive">
+                                </li>
+                                <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                                    <span>Laptop</span>
+                                </h5>
+                                <h5>Output on <b>Mobilenet Model: </b>
+                                    <span>Lighter</span>
+                                </h5>
+                                <div class= "bob3">
+                                    <h4>Result - </h4>
+                                    <hr>
+                                    <h4> Both the models were inaccurate, but I think The Wolfram Language Image Recognizer was more accurate because a laptop is also and electronic just like an iPad.</h4>
+                                </div>
+                              
+                            </div>
+                    
+                            <hr>
+                            
+                                <div class= "text_images_and_result">
+                                    <li>
+                                        <b>Test Image - </b><img src= "Juicebox.png" class= "img-responsive">
+                                    </li>
+                                    <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                                        <span>Clapperboard</span>
+                                    </h5>
+                                    <h5>Output on <b>Mobilenet Model: </b>
+                                        <span>Hairspray</span>
+                                    </h5>
+                                    <div class= "bob3">
+                                        <h4>Result - </h4>
+                                        <hr>
+                                        <h4> Both the models were equally inaccurate.</h4>
+                                    </div>
+                                  
+                                </div>
+                        
+                                <hr>
+                                
+                                    <div class= "text_images_and_result">
+                                        <li>
+                                            <b>Test Image - </b><img src= "Mug.png" class= "img-responsive">
+                                        </li>
+                                        <h5>Output on <b>Wolfram Language Image Recognizer </b>
+                                            <span>Mug</span>
+                                        </h5>
+                                        <h5>Output on <b>Mobilenet Model:</b>
+                                            <span> Comic Book</span>
+                                        </h5>
+                                        <div class= "bob3">
+                                            <h4>Result - </h4>
+                                            <hr>
+                                            <h4> The Wolfram Language Image Recognizer was more accurate.</h4>
+                                        </div>
+                                      
+                                    </div>
+                            
+                                    <hr>
+                                    
+                                        <div class= "text_images_and_result">
+                                            <li>
+                                                <b>Test Image - </b><img src= "Partyhat.png" class= "img-responsive">
+                                            </li>
+                                            <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                                                <span>Lamp Shade</span>
+                                            </h5>
+                                            <h5>Output on <b>Mobilenet Model: </b>
+                                                <span>Pipe Organ</span>
+                                            </h5>
+                                            <div class= "bob3">
+                                                <h4>Result - </h4>
+                                                <hr>
+                                                <h4> Both the models were equally inaccurate.</h4>
+                                            </div>
+                                          
+                                        </div>
+                                
+                                        <hr>
+                                        
+                                            <div class= "text_images_and_result">
+                                                <li>
+                                                    <b>Test Image - </b><img src= "Stapler.png" class= "img-responsive">
+                                                </li>
+                                                <h5>Output on <b>Wolfram Language Image Recognizer: </b>
+                                                    <span>Keyboard</span>
+                                                </h5>
+                                                <h5>Output on <b>Mobilenet Model:</b>
+                                                    <span> Smoothing Iron</span>
+                                                </h5>
+                                                <div class= "bob3">
+                                                    <h4>Result - </h4>
+                                                    <hr>
+                                                    <h4> Both the models were equally inaccurate.</h4>
+                                                </div>
+                                              
+                                            </div>
+                                    
+                                            <hr>
+                                            <br>
+                                            <h2>After doing a case study of all the images above, I can safely say that the Wolfram Language Recognizer is better at recognizing images than the Mobilenet Model.</h2>
+</body>
+</html>
